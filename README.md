@@ -50,13 +50,13 @@ To run inference with a checkpoint, please run the following:
 # tools/dist_test.sh <config path> <ckpt path> 8 --eval bbox
 
 # for example:
-tools/dist_test.sh projects/configs/vedet_vovnet_p4_1600x640_2vview_2frame.py work_dirs/vedet_vovnet_p4_1600x640_2vview_2frame/latest.pth 8 --eval bbox
+tools/dist_test.sh projects/configs/vedet_vovnet_p4_1600x640_2vview_2frame.py ckpts/latest.pth 8 --eval bbox
 ```
 
 
 You can evaluate the model following:
 ```bash
-tools/dist_test.sh projects/configs/vedet_vovnet_p4_1600x640_2vview_2frame.py work_dirs/petr_r50dcn_gridmask_p4/latest.pth 1 --eval bbox
+tools/dist_test.sh projects/configs/vedet_vovnet_p4_1600x640_2vview_2frame.py ckpts/latest.pth 1 --eval bbox
 ```
 ## Visualize
 You can generate the reault json following:

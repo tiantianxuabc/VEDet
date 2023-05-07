@@ -35,11 +35,11 @@ sudo python3 setup.py develop
 cd ..
 ```
 
-## Install PETR
+## Install VEDet
 
 ```bash
-git clone https://github.com/megvii-research/PETR.git
-cd PETR
+git clone https://github.com/TRI-ML/VEDet.git 
+cd VEDet
 mkdir ckpts
 mkdir data
 ln -s {mmdetection3d_path} ./mmdetection3d
@@ -47,8 +47,8 @@ ln -s {nuscenes_path} ./data/nuscenes
 ```
 examples
 ```bash
-git clone https://github.com/megvii-research/PETR.git
-cd PETR
+git clone https://github.com/TRI-ML/VEDet.git    
+cd VEDet
 mkdir ckpts ###pretrain weights
 mkdir data ###dataset
 ln -s ../mmdetection3d ./mmdetection3d
